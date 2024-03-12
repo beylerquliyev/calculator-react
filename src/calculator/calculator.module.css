@@ -1,0 +1,72 @@
+.BtnsDiv{
+    display: flex;
+    flex-wrap: wrap;
+   
+    width: 300px;
+    gap: 20px;
+
+}
+.divv{
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+border-radius: 40px;}
+.BtnsDiv button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.BtnsDiv button:hover {
+    background-color:rgb(25, 75, 105); 
+    color: white;
+  }
+.HeaderDiv{
+    height:100px;
+  
+    width: 300px;
+}
+
+.HeaderDiv h1{
+    font-size: 50px;
+    float:right;
+    color: antiquewhite;
+}
+
+.FullDivCalc{
+    background-color: rgb(25, 75, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+   
+
+}
+.ChooseBtn{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 7px solid rgb(25, 75, 105);   
+
+}
+.Btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+
+}
+.ACbtn{
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 8px;
+   
+}
+.ACbtn:hover {
+    background-color:rgb(25, 75, 105); 
+    color: white;
+  }
+
